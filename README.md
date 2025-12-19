@@ -241,6 +241,12 @@ Higher `z-index` values appear **on top** of lower ones.
 ---
 
 ## Section 3: JavaScript
+
+Just like the CSS file, you need to link your JavaScript file as well.
+Add this anywhere in your `<body>`:
+```html
+<script src="script.js">```
+
 #### Working with dates
 
 ```js
