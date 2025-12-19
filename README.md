@@ -1,5 +1,5 @@
-> [!WARNING]
-> You are NOT legally allowed to use the Phantom Sans font without a license. Do not use the font unless if you have a license. Not complying with this is violating copyright laws.
+> # [!WARNING]
+> # You are NOT legally allowed to use the Phantom Sans font without a license. Do not use the font unless if you have a license. Not complying with this is violating copyright laws.
 
 # Introduction
 
