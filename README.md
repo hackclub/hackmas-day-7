@@ -1,3 +1,6 @@
+> [!WARNING]
+> You are NOT legally allowed to use the Phantom Sans font without a license. Do not use the font unless if you have a license. Not complying with this is violating copyright laws.
+
 # Introduction
 
 Hey everyone! I’m Astra, and I’ll be guiding you through how to make a simple interactive Christmas tree using HTML, CSS, and JavaScript
@@ -130,8 +133,39 @@ In your `<head>` tag, link your CSS file like this:
 
 First off, let's add some custom fonts and colors!
 ```css
+@font-face {  
+    font-family: 'Phantom Sans';  
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff')  
+    format('woff'),  
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff2')  
+    format('woff2');  
+    font-weight: normal;  
+    font-style: normal;  
+    font-display: swap;  
+}  
+@font-face {  
+    font-family: 'Phantom Sans';  
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff')  
+    format('woff'),  
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff2')  
+    format('woff2');  
+    font-weight: normal;  
+    font-style: italic;  
+    font-display: swap;  
+}  
+@font-face {  
+    font-family: 'Phantom Sans';  
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff')  
+    format('woff'),  
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff2')  
+    format('woff2');  
+    font-weight: bold;  
+    font-style: normal;  
+    font-display: swap;  
+}
+
 body{  
-    font-family: sans-serif;  
+    font-family: 'Phantom Sans', sans-serif;  
     background-image: url("img/backgroundtile.png");  
     color: azure;  
 }  
@@ -141,7 +175,7 @@ body{
 }
 ```
 
-The `@font-face` sections defines a font that isn't already installed (Hint: check out hackclub.com/branding for some greatand colors and icons!) (update: the `@font-face` example was cut out from the guide due to the usage policy for the Phantom Sans font).
+The `@font-face` sections defines a font that isn't already installed (Hint: check out hackclub.com/branding for some great fonts and colors!).
 
 The bits without a prefix (such as `body{...}`) will apply the attributes to every tag of that type
 The ones with a `#` prefix (like `#header{...}`) will apply to the tag with that **id***
@@ -297,6 +331,36 @@ document.addEventListener('DOMContentLoaded', () => {
 ```
 
 ```css
+@font-face {
+  font-family: 'Phantom Sans';
+  src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff')
+  format('woff'),
+  url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Phantom Sans';
+  src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff')
+  format('woff'),
+  url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff2')
+  format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Phantom Sans';
+  src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff')
+  format('woff'),
+  url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff2')
+  format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
 body{
   font-family: sans-serif;
