@@ -124,7 +124,8 @@ In your `<head>` tag, link your CSS file like this:
 <html lang="en">  
 <head>  
     <meta charset="UTF-8">  
-    <title>Haxmas Day 7</title>  
+    <title>Haxmas Day 7</title>
+    <link rel="stylesheet" href="style.css">  
 </head>
 ```
 
