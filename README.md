@@ -101,11 +101,11 @@ To insert images, you would utilize the `<img>` tag. Unlike most HTML elements, 
 
 It's good practice to put images in their own directory for organization. Here's how my file tree looks!
 
-![Screenshot 2025-12-19 at 21.21.20.png](screenshots/Screenshot%202025-12-19%20at%2021.21.20.png)
+<img src="screenshots/Screenshot%202025-12-19%20at%2021.21.20.png">
 
 Now if we try to open this and take a look...
 
-![Screenshot 2025-12-19 at 21.29.14.png](screenshots/Screenshot%202025-12-19%20at%2021.29.14.png)
+<img src="screenshots/Screenshot%202025-12-19%20at%2021.29.14.png">
 
 ... It looks terrible. All the things we want *exists*, but none of it looks good and nothing's in the place we want it to be. That brings us to our next section...
 
@@ -181,7 +181,9 @@ The ones with a `.` prefix (like `.decoration{...}`) will apply to all tags with
 Since the `body` tag encompasses the entire visible page, anything you put in there will apply to the entire page, unless overwritten by the attributes of another tag. Here, besides from setting the font using `font-family`, and font color `color`, you can set the background image by using `background-image: url("path/to/image.png")` (Alternatively, you can use `background-color` or `background-image: gradient(...)`).
 
 `text-align: center` puts the text at the center. This is applied to the `header` and `footer` divs!
-![Screenshot 2025-12-19 at 22.31.00.png](screenshots/Screenshot%202025-12-19%20at%2022.31.00.png)
+
+<img src="screenshots/Screenshot%202025-12-19%20at%2022.31.00.png">
+
 Now this is how it looks. Slightly better but still not good, no problem, we're gonna fix that in the next step...
 
 #### Layout: display, position, margins
@@ -409,7 +411,7 @@ body{
 
 And we're done!
 
-![Screenshot 2025-12-19 at 22.50.29.png](screenshots/Screenshot%202025-12-19%20at%2022.50.29.png)
+<img src="screenshots/Screenshot%202025-12-19%20at%2022.50.29.png">
 
 ---
 
