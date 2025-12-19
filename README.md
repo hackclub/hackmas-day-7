@@ -101,11 +101,11 @@ To insert images, you would utilize the `<img>` tag. Unlike most HTML elements, 
 
 It's good practice to put images in their own directory for organization. Here's how my file tree looks!
 
-<img src="screenshots/Screenshot%202025-12-19%20at%2021.21.20.png">
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/920e44b395755718_screenshot_2025-12-19_at_21.21.20.png">
 
 Now if we try to open this and take a look...
 
-<img src="screenshots/Screenshot%202025-12-19%20at%2021.29.14.png">
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/9a9659fdeb5fce24_screenshot_2025-12-19_at_21.29.14.png">
 
 ... It looks terrible. All the things we want *exists*, but none of it looks good and nothing's in the place we want it to be. That brings us to our next section...
 
@@ -182,7 +182,7 @@ Since the `body` tag encompasses the entire visible page, anything you put in th
 
 `text-align: center` puts the text at the center. This is applied to the `header` and `footer` divs!
 
-<img src="screenshots/Screenshot%202025-12-19%20at%2022.31.00.png">
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/f58d6ed961c20805_screenshot_2025-12-19_at_22.31.00.png">
 
 Now this is how it looks. Slightly better but still not good, no problem, we're gonna fix that in the next step...
 
@@ -411,7 +411,7 @@ body{
 
 And we're done!
 
-<img src="screenshots/Screenshot%202025-12-19%20at%2022.50.29.png">
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/ce4568bc020b052e_screenshot_2025-12-19_at_22.50.29.png">
 
 ---
 
