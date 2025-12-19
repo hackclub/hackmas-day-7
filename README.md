@@ -1,6 +1,4 @@
-# Day 7: Make An Interactive Christmas Tree!
-### Prize: 3 snowflakes
-## Introduction
+# Introduction
 
 Hey everyone! I’m Astra, and I’ll be guiding you through how to make a simple interactive Christmas tree using HTML, CSS, and JavaScript
 
@@ -409,7 +407,7 @@ body{
 }
 ```
 
-And we're done! Submit at https://forms.hackclub.com/haxmas-day-7
+And we're done!
 
 ![Screenshot 2025-12-19 at 22.50.29.png](screenshots/Screenshot%202025-12-19%20at%2022.50.29.png)
 
