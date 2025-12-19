@@ -2,4 +2,4 @@
 
 Heya! Jenin here. Day 7 will be up soon, sorry for the delay!   
 
-For more info check out the [announcement](https://hackclub.slack.com/archives/C0A277A4FP0/p1766120433240069) on Slack.
+For more info check out the [announcement](https://hackclub.slack.com/archives/C0A277A4FP0/p1766120433240069) on Slack. If you haven't finished day 6 yet, [go do that now!](https://haxmas.hackclub.com/day/6) It's been extended to 11:00AM EST.
